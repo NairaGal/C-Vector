@@ -51,14 +51,20 @@ Reusable for any data type (int, float, structs, etc.)
 Reduces bugs related to manual memory management
 Ideal for applications where the number of elements changes dynamically
 ## Getting started
-Compile
+1.Clone the repository
+```bash
+git clone https://github.com/NairaGal/C-Vector.git
+cd cvector
+```
+2.Compile
 ```bash
 gcc main.c src/vector.c -Iinclude -o vector_demo
 ```
-Run
+3.Run
 ```bash
 ./vector_demo
 ```
 Enter integers until a non-number is typed. The program will display all stored elements and the vector's size and capacity.
+
 
 
