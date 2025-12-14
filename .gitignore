@@ -1,0 +1,3 @@
+# Ignore build outputs
+vector_demo
+*.o
