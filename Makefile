@@ -3,7 +3,7 @@
 CC = gcc
 CFLAGS = -Wall -Wextra -std=c11
 INCLUDES = -Iinclude
-SRC = src/vector.c src/main.c
+SRC = src/vector.c main.c
 OUT = vector_demo
 
 all:
