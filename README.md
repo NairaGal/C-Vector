@@ -71,7 +71,7 @@ Ideal for applications where the number of elements changes dynamically
 1.Clone the repository
 ```bash
 git clone https://github.com/NairaGal/C-Vector.git
-cd cvector
+cd C-Vector
 ```
 2.Compile using Makefile
 ```bash
@@ -82,6 +82,7 @@ make
 ./vector_demo
 ```
 Enter integers until a non-number is typed. The program will display all stored elements and the vector's size and capacity.
+
 
 
 
